@@ -1,4 +1,4 @@
-<!-- navbar --> 
+
       <nav class="navbar navbar-expand-md navbar-light " >
       <a class="navbar-brand" href="index.php">SBS BANK</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

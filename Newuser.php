@@ -37,14 +37,7 @@
 
   <div class="background" >
   <div class="container">
-    <!-- <div class="screen"> -->
-       <!-- <div class="screen-header"> 
-        <div class="screen-header-right">
-          <div class="screen-header-ellipsis"></div>
-          <div class="screen-header-ellipsis"></div>
-          <div class="screen-header-ellipsis"></div>
-        </div>
-      </div>  -->
+   
       <div class="screen-body">
         <div class="screen-body-item left">
           <img class="img-fluid" src="img/user.png" style="border: none; border-radius: 50%;">
@@ -66,13 +59,10 @@
             </div>
             </div>
             <br>
-            <!-- <div class="app-form-group button">
-              <input class="app-form-button" type="submit" value="CREATE" name="submit"></input>
-              <input class="app-form-button" type="reset" value="RESET" name="reset"></input>
-            </div> -->
+           
           </form>
         </div>
-      <!-- </div> -->
+      
     </div>
   </div>
 </div>

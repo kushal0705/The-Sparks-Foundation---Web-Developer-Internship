@@ -18,7 +18,7 @@
   include 'navbar.php';
   ?>
       <div class="container-fluid" >
-      <!-- Introduction section -->
+      
             <div class="row intro py-1" style="background-color: 	aliceblue;">
               <div class="col-sm-12 col-md">
                 <div class="heading text-center my-5"  >
@@ -31,17 +31,17 @@
               </div>
             </div>
 
-      <!-- Activity section -->
+      
             <div class="row activity text-center" style="background-color: 	beige;">
                   <div class="col-md act">
                     <img src="img/user.png"style="width: 200px;" class="img-fluid">
                     <br><br>
-                    <a href="createuser.php"><button>Create a User</button></a>
+                    <a href="Newuser.php"><button>Create a User</button></a>
                   </div>
                   <div class="col-md act">
                     <img src="img/transaction.png"style="width: 250px;" class="img-fluid">
                     <br>
-                    <a href="transfermoney.php"><button>Make a Transaction</button></a>
+                    <a href="moneytransfer.php"><button>Make a Transaction</button></a>
                   </div>
                   <div class="col-md act">
                     <img src="img/history.png" style="width: 300px;"class="img-fluid">

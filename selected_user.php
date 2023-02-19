@@ -9,7 +9,7 @@ if(isset($_POST['submit']))
 
     $sql = "SELECT * from user where id=$from";
     $query = mysqli_query($conn,$sql);
-    $sql1 = mysqli_fetch_array($query); // returns array or output of user from which the amount is to be transferred.
+    $sql1 = mysqli_fetch_array($query); // returns  output of user from which the amount of money is to be transferred.
 
     $sql = "SELECT * from user where id=$to";
     $query = mysqli_query($conn,$sql);
@@ -17,17 +17,17 @@ if(isset($_POST['submit']))
 
 
 
-    // constraint to check input of negative value by user
+    //  check input of negative value by user
     if (($amount)<0)
    {
         echo '<script type="text/javascript">';
-        echo ' alert("Oops! Negative values cannot be transferred")';  // showing an alert box.
+        echo ' alert("Oops! Negative values cannot be transferred")';  //  alert box.
         echo '</script>';
     }
 
 
   
-    // constraint to check insufficient balance.
+    //  to check insufficient balance.
     else if($amount > $sql1['balance']) 
     {
         
@@ -38,7 +38,7 @@ if(isset($_POST['submit']))
     
 
 
-    // constraint to check zero values
+    //  to check zero values
     else if($amount == 0){
 
          echo "<script type='text/javascript'>";
